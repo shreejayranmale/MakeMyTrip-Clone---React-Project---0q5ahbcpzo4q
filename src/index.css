@@ -1,0 +1,277 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.logo img{
+  width:150px;
+  height:75px;
+  margin: 12px 12px;
+}
+
+.Navbar {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.options a {
+  text-decoration: none;
+  margin: 21px 36px;
+  font-size: 20px;
+  color:black;
+}
+
+.options{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+
+.trains{
+  margin-right: 5px;
+}
+
+.regi p {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+
+.flightform {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 50px;
+}
+
+.flightform select{
+  margin-left: 4px;
+}
+
+.tofromcontplane{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 35px;
+
+}
+
+.tofromcontplane label{
+  margin-right: 5px;
+}
+
+.tofromcontplane input{
+  height:30px;
+}
+
+
+.linebot{
+  margin-top: 70px;
+}
+
+.availplanetic{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.submit{
+  position:relative;
+  left: -560px;
+  top: 89px;
+  width: 200px;
+height: 32px;
+  
+
+}
+
+.cardcont{
+  height:300px;
+  width:800px;
+  border:2px solid black;
+}
+
+.firstrowplane{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+}
+
+.onecall{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.firstrowplane1{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.book{
+  position: relative;
+  top: 50px;
+left: 60px;
+}
+
+.book button{
+  width:60px;
+  height: 30px;
+}
+
+.onecall1{
+  position: relative;
+  left:10px;
+  left: 59px;
+}
+.cardcont{
+  margin:25px 0;
+}
+
+.onecalldura{
+  position:relative;
+  left:105px;
+}
+
+.sindiv{
+  display:flex;
+  height:100vh;
+  width:100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white(111, 142, 226);
+}
+
+.sintwodiv{
+  display:flex;
+  flex-direction: column;
+  background-color: white(96, 96, 233);
+  padding:40px;
+}
+
+.sininp, .signpass,.butnsin{
+  margin:4px 0;
+}
+
+.sininp, .signpass, .butnsin{
+  height:25px;
+}
+
+.butnsin{
+  background-color: rgb(35, 35, 228);
+  color:white;
+}
+
+
+.sinlink{
+  background-color: blue;
+  padding:3px;
+  color:white;
+  text-align: center;
+}
+
+.signupcont{
+  display:flex;
+  height:100vh;
+  width:100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupinp, .signupmail, .signuppass, .signupaa{
+  margin:5px 0;
+  width:250px;
+  height:25px;
+
+}
+
+.signupaa{
+ width:250px;
+  height:25px;
+  background-color: blue;
+  text-decoration:none ;
+  height:22px;
+  color:white;
+  text-align: center;
+
+}
+
+.book a{
+  text-decoration: none;
+  color: black;
+}
+
+.book button{
+  color:white;
+}
+
+.book  {
+ text-decoration: none;
+}
+
+.billboth{
+  display:flex;
+  flex-direction: row;
+  height:100vh;
+  width:100%;
+  justify-content: space-around;
+  align-items: center;
+  
+
+}
+
+.paymentmethod{
+  display:flex;
+  flex-direction: column;
+
+}
+
+.billcont{
+ border:1px solid gray;
+ width:350px;
+ height:250px;
+ padding: 5px;
+}
+
+.paymentmethod{
+  width:350px;
+  height:250px;
+  border:1px solid gray;
+  padding: 5px;
+}
+
+.payone{
+  margin:3px 0;
+}
+
+.paymentmethod button {
+  width:35px;
+}
+.paymentmethod h1 {
+  margin-bottom: 8px;
+}
+
+
+
+
+
+
+
